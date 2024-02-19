@@ -14,7 +14,7 @@ import ProjetoCard from './components/ProjetoCard';
 const projetos = [
   {
     titulo: 'Ricky and Morty API',
-    descricao: 'Projeto desenvolvido com React, utilizando a API do Ricky and Morty. Onde era possível buscar personagens, episódios e locais e, também, criar novos personagens e customizar os personagens originais trazidos pela API.',
+    descricao: 'Projeto desenvolvido com React, estilizado em Tailwind utilizando a API do Ricky and Morty. Onde era possível buscar personagens, episódios e locais e, também, criar novos personagens e customizar os personagens originais trazidos pela API.',
     imagem: require('./assets/RickMorty.png'), // Substitua './assets/projeto1.jpg' pelo caminho correto da sua imagem
   },
   {
@@ -54,7 +54,7 @@ const App = () => {
           <Introducao
           nome="Fábio Vilas Boas"
           descricao="Sou Fábio Junior, natural de Sorocaba-SP, e atualmente conto com 16 anos de idade. Encontro-me matriculado no curso de Desenvolvimento de Sistemas no SENAI Valinhos-SP. Sou apaixonado por tecnologia e por tudo que ela pode nos proporcionar, e por isso, estou sempre buscando aprender mais sobre o assunto. Além disso, sou uma pessoa muito comunicativa e gosto de trabalhar em equipe, pois acredito que a troca de conhecimentos é essencial para o crescimento profissional e pessoal de todos."
-          descricaoLonga="Como desenvolvedor, já trabalhei em diversos projetos, começando com HTML e CSS básicos até sistemas que integram frontend e backend. Dos projetos em que trabalhei, os que mais me agradaram em termos de resultado final foram o da API de Rick and Morty, um projeto de conclusão sobre o conteúdo de APIs, e o projeto Elite Chefs, onde eu e minha equipe desenvolvemos um guia gastronômico integrando backend e frontend."
+          descricaoLonga="Atualmente estou cursando o terceiro semenstre do curso de Desenvolvimento de Sistemas no SENAI. Como desenvolvedor, já trabalhei em diversos projetos, começando com HTML e CSS básicos até sistemas que integram frontend e backend. Dos projetos em que trabalhei, os que mais me agradaram em termos de resultado final foram o da API de Rick and Morty, um projeto de conclusão sobre o conteúdo de APIs, e o projeto Elite Chefs, onde eu e minha equipe desenvolvemos um guia gastronômico integrando backend e frontend."
           imagemSrc={require('./assets/fabio.png')} 
         />
             <TouchableOpacity className='bg-[#387558] p-2 rounded-md mt-4' onPress={() => setVerProjetos(!verProjetos)}>
